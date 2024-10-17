@@ -23,7 +23,7 @@ export default {
     }),
     copy({
       targets: [
-        { src: 'lib/', dest: 'dist' }
+        { src: 'lib/', dest: 'public' }
       ]
     }),
     /** Resolve bare module imports */
